@@ -12,9 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6be0da7-8e48-43ff-a422-3ec60e7bf55b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/PageAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ViewPager UI tests.iws" />
@@ -108,11 +106,9 @@
       <file leaf-file-name="PageAdapter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/PageAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="427" selection-end="427" vertical-scroll-proportion="0.5380435" vertical-offset="74" max-vertical-offset="697">
+            <state line="24" column="3" selection-start="544" selection-end="544" vertical-scroll-proportion="1.0461956" vertical-offset="23" max-vertical-offset="697">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -595,7 +591,7 @@
       <workItem from="1393600270597" duration="1603000" />
       <workItem from="1393601900379" duration="673000" />
       <workItem from="1393602651434" duration="61000" />
-      <workItem from="1393605253247" duration="7391000" />
+      <workItem from="1393605253247" duration="7784000" />
     </task>
     <task id="LOCAL-00001" summary="test sync with IntelliJ IDEA 13">
       <created>1393602377880</created>
@@ -609,15 +605,19 @@
       <created>1393607040530</created>
       <updated>1393607040530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="any tests with adapters">
+      <created>1393617811948</created>
+      <updated>1393617811948</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18906000" />
+    <option name="totallyTimeSpent" value="19299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -641,7 +641,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18655589" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18655589" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -669,7 +669,8 @@
     <MESSAGE value="test sync with IntelliJ IDEA 13" />
     <MESSAGE value="test sync with IntelliJ IDEA 13&#10;&#10;" />
     <MESSAGE value="add support v4 lib in project in lib directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="add support v4 lib in project in lib directory" />
+    <MESSAGE value="any tests with adapters" />
+    <option name="LAST_COMMIT_MESSAGE" value="any tests with adapters" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -972,11 +973,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/PageAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="427" selection-end="427" vertical-scroll-proportion="0.5380435" vertical-offset="74" max-vertical-offset="697">
+        <state line="24" column="3" selection-start="544" selection-end="544" vertical-scroll-proportion="1.0461956" vertical-offset="23" max-vertical-offset="697">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
           </folding>
         </state>
       </provider>
