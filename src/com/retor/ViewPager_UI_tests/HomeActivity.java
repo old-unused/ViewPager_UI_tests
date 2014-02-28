@@ -28,9 +28,8 @@ public class HomeActivity extends FragmentActivity {
         bar.setDisplayOptions(0, ActionBar.DISPLAY_SHOW_TITLE);
 
         myPageAdapter = new MyPageAdapter(this.getSupportFragmentManager(), this, viewPager);
-        myPageAdapter.addTab(bar.newTab().setText("Simple"),
-                ListViewFragment.class, null);
-        myPageAdapter.addTab(bar.newTab().setText("Second"),ListViewFragment.class,null);
+        myPageAdapter.addTab(bar.newTab().setText("Simple"),ListViewFragment.class, null);
+        myPageAdapter.addTab(bar.newTab().setText("Second"),ListViewFragment.class, null);
 /*        myPageAdapter.addTab(bar.newTab().setText("List"),
                 FragmentPagerSupport.ArrayListFragment.class, null);
         mTabsAdapter.addTab(bar.newTab().setText("Cursor"),
