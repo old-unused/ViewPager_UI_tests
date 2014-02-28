@@ -15,9 +15,8 @@ import java.util.ArrayList;
 /**
  * Created by Антон on 28.02.14.
  */
-public class MyPageAdapter extends FragmentPagerAdapter implements ActionBar.TabListener, ViewPager.OnPageChangeListener {
+public class MyPageAdapter extends FragmentPagerAdapter implements ViewPager.OnPageChangeListener {
     private final Context mContext;
-    private final ActionBar mActionBar;
     private final ViewPager mViewPager;
     private final ArrayList<TabInfo> mTabs = new ArrayList<TabInfo>();
 
@@ -34,18 +33,14 @@ public class MyPageAdapter extends FragmentPagerAdapter implements ActionBar.Tab
     public MyPageAdapter(FragmentManager fm, Activity activity, ViewPager pager) {
         super(fm); //.getFragmentManager());
         mContext = activity;
-        mActionBar = activity.getActionBar();
         mViewPager = pager;
         mViewPager.setAdapter(this);
         mViewPager.setOnPageChangeListener(this);
     }
 
-    public void addTab(ActionBar.Tab tab, Class<?> clss, Bundle args) {
+    public void addTab(Class<?> clss, Bundle args) {
         TabInfo info = new TabInfo(clss, args);
-        tab.setTag(info);
-        tab.setTabListener(this);
         mTabs.add(info);
-        mActionBar.addTab(tab);
         notifyDataSetChanged();
     }
 
@@ -66,29 +61,14 @@ public class MyPageAdapter extends FragmentPagerAdapter implements ActionBar.Tab
 
     @Override
     public void onPageSelected(int position) {
-        mActionBar.setSelectedNavigationItem(position);
+       // mActionBar.setSelectedNavigationItem(position);
     }
 
     @Override
     public void onPageScrollStateChanged(int state) {
     }
 
-    @Override
-    public void onTabSelected(ActionBar.Tab tab, FragmentTransaction ft) {
-        Object tag = tab.getTag();
-        for (int i=0; i<mTabs.size(); i++) {
-            if (mTabs.get(i) == tag) {
-                mViewPager.setCurrentItem(i);
-            }
-        }
+    public CharSequence getPageTitle(int position) {
+        return "Title " + position;
     }
-
-    @Override
-    public void onTabUnselected(ActionBar.Tab tab, FragmentTransaction ft) {
-    }
-
-    @Override
-    public void onTabReselected(ActionBar.Tab tab, FragmentTransaction ft) {
-    }
-
 }
