@@ -29,9 +29,6 @@ public class HomeActivity extends FragmentActivity {
         final ActionBar bar = getActionBar();
         ViewPager viewPager = (ViewPager)findViewById(R.id.viewpager);
         PagerSlidingTabStrip pagerSlidingTabStrip = (PagerSlidingTabStrip)findViewById(R.id.tabs);
-        pagerSlidingTabStrip.setIndicatorHeight(5);
-        pagerSlidingTabStrip.setIndicatorColor(073065);
-        pagerSlidingTabStrip.setTextSize(15);
         frag1 = new ListViewFragment();
         frag2 = new ListViewFragment();
         fragments = new ArrayList<Fragment>();
@@ -44,8 +41,8 @@ public class HomeActivity extends FragmentActivity {
         viewPager.setAdapter(ta);
         viewPager.setCurrentItem(0);
         pagerSlidingTabStrip.setViewPager(viewPager);
-        //bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        //bar.setDisplayOptions(0, ActionBar.DISPLAY_SHOW_TITLE);
+        bar.setDisplayOptions(0, ActionBar.DISPLAY_SHOW_TITLE);
+
     }
 
     @Override
