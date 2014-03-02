@@ -12,7 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6be0da7-8e48-43ff-a422-3ec60e7bf55b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/PageAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestAdapter.java" />
+      <change type="DELETED" beforePath="C:\Users\retor\Documents\GitHub\ViewPager_UI_tests\src\com\retor\ViewPager_UI_tests\MyPageAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\retor\Documents\GitHub\ViewPager_UI_tests\src\com\retor\ViewPager_UI_tests\PageAdapter.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ViewPager UI tests.iml" afterPath="$PROJECT_DIR$/ViewPager UI tests.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ViewPager UI tests.iws" />
@@ -86,31 +93,32 @@
       <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="10" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="1003">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyPageAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="41" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1190">
+            <state line="37" column="0" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageAdapter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/PageAdapter.java">
+      <file leaf-file-name="TestAdapter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="3" selection-start="544" selection-end="544" vertical-scroll-proportion="1.0461956" vertical-offset="23" max-vertical-offset="697">
+            <state line="53" column="1" selection-start="1250" selection-end="1250" vertical-scroll-proportion="1.0967742" vertical-offset="561" max-vertical-offset="1003">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="4" selection-start="635" selection-end="635" vertical-scroll-proportion="-9.2" vertical-offset="76" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -120,18 +128,6 @@
             <state line="8" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="44" selection-start="693" selection-end="693" vertical-scroll-proportion="-8.8" vertical-offset="52" max-vertical-offset="476">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -171,10 +167,12 @@
         <option value="$PROJECT_DIR$/res/layout/listfragment.xml" />
         <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java" />
         <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/PageAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java" />
+        <option value="C:/AndroidSDK/PagerSlidingTabStrip-master/library/src/com/astuetz/PagerSlidingTabStrip.java" />
+        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java" />
       </list>
     </option>
   </component>
@@ -212,7 +210,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,41 +246,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ViewPager UI tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ViewPager_UI_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="ViewPager UI tests">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="ViewPager_UI_tests">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ViewPager UI tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ViewPager_UI_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewPager UI tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,8 +298,8 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/android-support-v4.jar!/" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="last_opened_file_path" value="C:/AndroidSDK/PagerSlidingTabStrip-master/library" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
@@ -591,7 +590,9 @@
       <workItem from="1393600270597" duration="1603000" />
       <workItem from="1393601900379" duration="673000" />
       <workItem from="1393602651434" duration="61000" />
-      <workItem from="1393605253247" duration="7784000" />
+      <workItem from="1393605253247" duration="15088000" />
+      <workItem from="1393744380065" duration="2203000" />
+      <workItem from="1393748400588" duration="4925000" />
     </task>
     <task id="LOCAL-00001" summary="test sync with IntelliJ IDEA 13">
       <created>1393602377880</created>
@@ -609,15 +610,19 @@
       <created>1393617811948</created>
       <updated>1393617811948</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="... continue">
+      <created>1393618148682</created>
+      <updated>1393618148682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19299000" />
+    <option name="totallyTimeSpent" value="33731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -634,19 +639,19 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42759797" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18655589" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18655589" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -670,7 +675,8 @@
     <MESSAGE value="test sync with IntelliJ IDEA 13&#10;&#10;" />
     <MESSAGE value="add support v4 lib in project in lib directory" />
     <MESSAGE value="any tests with adapters" />
-    <option name="LAST_COMMIT_MESSAGE" value="any tests with adapters" />
+    <MESSAGE value="... continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="... continue" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -716,10 +722,94 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="1297" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
+        <state line="25" column="0" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1003">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="307" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="15" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1003">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="307" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="59" selection-start="1297" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -730,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="9" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="45" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
@@ -767,9 +850,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="59" selection-start="1297" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -780,13 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="9" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="45" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
@@ -817,22 +891,13 @@
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="59" selection-start="1297" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="12" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="9" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
@@ -867,15 +932,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="1" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="9" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
@@ -916,23 +972,32 @@
     </entry>
     <entry file="file://C:/AndroidSDK/sdk/sources/android-19/android/annotation/SuppressLint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="647" selection-end="647" vertical-scroll-proportion="0.046195652" vertical-offset="0" max-vertical-offset="368">
-          <folding />
-        </state>
+        <state line="15" column="27" selection-start="647" selection-end="647" vertical-scroll-proportion="0.046195652" vertical-offset="0" max-vertical-offset="368" />
       </provider>
     </entry>
     <entry file="file://C:/AndroidSDK/sdk/sources/android-19/android/annotation/TargetApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="18" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.41576087" vertical-offset="0" max-vertical-offset="368">
+        <state line="29" column="18" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.41576087" vertical-offset="0" max-vertical-offset="368" />
+      </provider>
+    </entry>
+    <entry file="file://C:/AndroidSDK/PagerSlidingTabStrip-master/library/src/com/astuetz/PagerSlidingTabStrip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="0" selection-start="6482" selection-end="6482" vertical-scroll-proportion="0.33225808" vertical-offset="2685" max-vertical-offset="8993" />
+      </provider>
+    </entry>
+    <entry file="file://C:/AndroidSDK/sdk/sources/android-19/android/app/ActionBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="275" column="25" selection-start="11262" selection-end="11262" vertical-scroll-proportion="0.4967742" vertical-offset="4113" max-vertical-offset="17748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="4" selection-start="635" selection-end="635" vertical-scroll-proportion="-9.2" vertical-offset="76" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
@@ -945,35 +1010,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="693" selection-end="693" vertical-scroll-proportion="-8.8" vertical-offset="52" max-vertical-offset="476">
+        <state line="8" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="10" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1003">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="41" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1190">
+        <state line="37" column="0" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="918">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/PageAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="544" selection-end="544" vertical-scroll-proportion="1.0461956" vertical-offset="23" max-vertical-offset="697">
+        <state line="53" column="1" selection-start="1250" selection-end="1250" vertical-scroll-proportion="1.0967742" vertical-offset="561" max-vertical-offset="1003">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1033,7 +1086,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ViewPager UI tests</last-edited>
+          <last-edited>library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
