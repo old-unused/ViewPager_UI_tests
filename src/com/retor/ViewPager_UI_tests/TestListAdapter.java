@@ -48,12 +48,12 @@ public class TestListAdapter extends ArrayAdapter<Object> {
         vh.answers = (TextView)v.findViewById(R.id.repcount);
         vh.likes = (TextView)v.findViewById(R.id.likescount);
 
-        String title = content.get(position);
+/*        String title = content.get(position);
         String message = content.get(position);
         String author = content.get(position);
         String date = content.get(position);
         String answers = content.get(position);
-        String likes = content.get(position);
+        String likes = content.get(position);*/
         }else{
             v = convertView;
         }
