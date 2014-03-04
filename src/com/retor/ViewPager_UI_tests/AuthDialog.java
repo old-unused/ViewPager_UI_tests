@@ -2,20 +2,17 @@ package com.retor.ViewPager_UI_tests;
 
 import android.app.Activity;
 import android.app.Dialog;
-import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
-import android.util.Log;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
-import com.perm.kate.api.Comment;
 
 import static com.perm.kate.api.Auth.*;
 
@@ -27,9 +24,11 @@ public class AuthDialog extends DialogFragment implements View.OnClickListener {
     Button no;
     Activity activity;
     Account account = new Account();
+    FragmentManager fm;
 
-    public AuthDialog(){
-
+    public AuthDialog(Activity _activity, FragmentManager _fm){
+        activity = _activity;
+        fm = _fm;
     }
 
     @Override
@@ -61,7 +60,6 @@ public class AuthDialog extends DialogFragment implements View.OnClickListener {
         wv.getSettings().setJavaScriptEnabled(true);
         wv.clearCache(true);
         wv.setWebViewClient(new VkontakteWebViewClient());
-        //return super.onCreateView(inflater, container, savedInstanceState);
         return v;
     }
 
@@ -81,16 +79,13 @@ public class AuthDialog extends DialogFragment implements View.OnClickListener {
         try {
             if(url==null)
                 return;
-            //Log.i(TAG, "url=" + url);
             if(url.startsWith(redirect_url))
             {
                 if(!url.contains("error=")){
                     String[] auth= parseRedirectUrl(url);
-                    Intent intent=new Intent();
-                    intent.putExtra("token", auth[0]);
-                    intent.putExtra("user_id", Long.parseLong(auth[1]));
-                    account.save(getActivity().getApplicationContext());
-                    //setResult(Activity.RESULT_OK, intent);
+                    account.user_id = Long.parseLong(auth[1]);
+                    account.access_token = auth[0];
+                    account.save(activity.getApplicationContext());
                     this.dismiss();
                 }
             }

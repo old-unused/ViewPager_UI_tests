@@ -7,30 +7,27 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.zip.Inflater;
 
 /**
  * Created by retor on 02.03.14.
  */
-public class TestListAdapter extends ArrayAdapter<Object> {
+public class TestListAdapter extends ArrayAdapter<WallContainer> {
 
     Context context;
-    ArrayList<Object> content;
+    ArrayList<WallContainer> content;
     int res;
 
-    public TestListAdapter(Context _context, int resource, ArrayList<Object> objects) {
+    public TestListAdapter(Context _context, int resource, ArrayList<WallContainer> objects) {
         super(_context, resource, objects);
         res = resource;
         context = _context;
-        content = new ArrayList<Object>();
+        content = new ArrayList<WallContainer>();
         content = objects;
     }
 
     @Override
-    public void add(Object object) {
+    public void add(WallContainer object) {
         content.add(object);
     }
 
@@ -48,12 +45,18 @@ public class TestListAdapter extends ArrayAdapter<Object> {
         vh.answers = (TextView)v.findViewById(R.id.repcount);
         vh.likes = (TextView)v.findViewById(R.id.likescount);
 
-/*        String title = content.get(position);
-        String message = content.get(position);
-        String author = content.get(position);
-        String date = content.get(position);
-        String answers = content.get(position);
-        String likes = content.get(position);*/
+        String title = String.valueOf(content.get(position).getCommentsSize());
+        String message = content.get(position).getMessage();
+        String author = content.get(position).getAuthor();
+        String date = content.get(position).getDate();
+        String answers = String.valueOf(content.get(position).getCommentsCount());
+        String likes = String.valueOf(content.get(position).getId());
+            vh.message.setText(message);
+            vh.author.setText(author);
+            vh.date.setText(date);
+            vh.answers.setText(answers);
+            vh.likes.setText(likes);
+            vh.title.setText(title);
         }else{
             v = convertView;
         }
@@ -61,7 +64,7 @@ public class TestListAdapter extends ArrayAdapter<Object> {
     }
 
     @Override
-    public Object getItem(int position) {
+    public WallContainer getItem(int position) {
         return content.get(position);
         //return super.getItem(position);
     }

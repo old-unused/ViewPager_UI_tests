@@ -5,7 +5,5 @@ package com.retor.ViewPager_UI_tests;
  */
 public interface AuthDialogListener {
 
-    public void onFinishEditDialog(String inputText);
-
-
+    public void onFinishAuthDialog(String inputText);
 }

@@ -5,17 +5,15 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.view.PagerTitleStrip;
 import android.support.v4.view.ViewPager;
-import android.widget.ListView;
-import android.widget.Toast;
+import android.util.Log;
 import com.astuetz.PagerSlidingTabStrip;
 import com.perm.kate.api.Api;
 
 import java.util.ArrayList;
 
 
-public class HomeActivity extends FragmentActivity implements AuthDialogListener {
+public class HomeActivity extends FragmentActivity {
     /**
      * Called when the activity is first created.
      */
@@ -48,9 +46,8 @@ public class HomeActivity extends FragmentActivity implements AuthDialogListener
         pagerSlidingTabStrip.setViewPager(viewPager);
         bar.setDisplayOptions(0, ActionBar.DISPLAY_SHOW_TITLE);
 
-
         account.restore(this);
-
+        Log.i("Restored", String.valueOf(account.user_id));
         if(account.access_token == null){
             showAuthDialog();
         }else{
@@ -64,16 +61,9 @@ public class HomeActivity extends FragmentActivity implements AuthDialogListener
         outState.putInt("tab", getActionBar().getSelectedNavigationIndex());
     }
 
-    @Override
-    public void onFinishEditDialog(String inputText) {
-        Toast.makeText(this, "Hi, " + inputText, Toast.LENGTH_SHORT).show();
-    }
-
     private void showAuthDialog() {
         FragmentManager fm = getSupportFragmentManager();
-        AuthDialog authDialog = new AuthDialog();
+        AuthDialog authDialog = new AuthDialog(this, getSupportFragmentManager());
         authDialog.show(fm, "authorization");
     }
-
-
 }
