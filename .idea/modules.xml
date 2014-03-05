@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:/TEST/AndroidVkSdk/AndroidVkSdk.iml" filepath="C:/TEST/AndroidVkSdk/AndroidVkSdk.iml" />
       <module fileurl="file://C:/AndroidSDK/AndroidVkSdk/AndroidVkSdk.iml" filepath="C:/AndroidSDK/AndroidVkSdk/AndroidVkSdk.iml" />
+      <module fileurl="file://C:/TEST/AndroidVkSdk/AndroidVkSdk.iml" filepath="C:/TEST/AndroidVkSdk/AndroidVkSdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/ViewPager UI tests.iml" filepath="$PROJECT_DIR$/ViewPager UI tests.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/adt-bundle-windows-x86_64-20131030/PagerSlidingTabStrip-master/library/library.iml" filepath="$USER_HOME$/Desktop/adt-bundle-windows-x86_64-20131030/PagerSlidingTabStrip-master/library/library.iml" />
       <module fileurl="file://C:/AndroidSDK/PagerSlidingTabStrip-master/library/library.iml" filepath="C:/AndroidSDK/PagerSlidingTabStrip-master/library/library.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/adt-bundle-windows-x86_64-20131030/PagerSlidingTabStrip-master/library/library.iml" filepath="$USER_HOME$/Desktop/adt-bundle-windows-x86_64-20131030/PagerSlidingTabStrip-master/library/library.iml" />
     </modules>
   </component>
 </project>

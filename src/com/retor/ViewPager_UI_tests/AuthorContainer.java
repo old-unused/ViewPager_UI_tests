@@ -23,26 +23,22 @@ public class AuthorContainer implements Serializable {
         setName(_lastName+" "+_name);
         setPicture(_picture);
     }
+
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public int getId() {
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
     }
-
     public String getPicture() {
         return picture;
     }
-
     public void setPicture(String picture) {
         this.picture = picture;
     }

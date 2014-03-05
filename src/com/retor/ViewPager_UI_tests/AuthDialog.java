@@ -50,7 +50,7 @@ public class AuthDialog extends DialogFragment implements View.OnClickListener {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        getDialog().setTitle("Title!");
+        getDialog().setTitle("VK auth");
         View v = inflater.inflate(R.layout.auth_dialog, null);
         no = (Button)v.findViewById(R.id.nothanks);
         no.setOnClickListener(this);
