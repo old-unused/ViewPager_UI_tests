@@ -10,6 +10,14 @@ public class AuthorContainer implements Serializable {
     private int id;
     private String picture;
 
+    //for groups
+    public AuthorContainer(String _name, int _id, String _picture){
+        setId(_id);
+        setName(_name);
+        setPicture(_picture);
+    }
+
+    //for people
     public AuthorContainer(String _name, String _lastName, int _id, String _picture){
         setId(_id);
         setName(_lastName+" "+_name);

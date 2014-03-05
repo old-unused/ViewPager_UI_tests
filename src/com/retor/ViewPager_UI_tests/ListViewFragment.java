@@ -19,8 +19,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import static java.lang.Thread.sleep;
-
 /**
  * Created by Антон on 28.02.14.
  */
@@ -72,7 +70,7 @@ public class ListViewFragment extends ListFragment {
         protected ArrayList<WallContainer> doInBackground(ArrayList<WallContainer>... params) {
             wallMessagesVK = new ArrayList<com.perm.kate.api.WallMessage>();
             try {
-                wallMessagesVK = api.getWallMessages(Cons.groupIdl, 10, 0, "all");
+                wallMessagesVK = api.getWallMessages(Long.valueOf(Cons.groupIdw), 10, 0, "all");
                 if (wallMessagesVK.size()!=0){
                     String message;
                     String author;
@@ -137,9 +135,12 @@ public class ListViewFragment extends ListFragment {
                 ArrayList<Long> id = new ArrayList<Long>();
                 id.add(Long.valueOf(tm));
                 ArrayList<Group> grt = api.getGroups(id,null,null);
-                auth.setName(grt.get(0).name.toString());
+                if (grt.size()!=0){
+                    auth = new AuthorContainer(grt.get(0).name.toString(), (int)grt.get(0).gid, grt.get(0).photo_medium);
+                /*auth.setName();
                 auth.setId((int)grt.get(0).gid);
-                auth.setPicture(grt.get(0).photo_medium);
+                auth.setPicture(grt.get(0).photo_medium);*/
+                }
             }
         }else{
             autId = String.valueOf(authorId);
@@ -148,19 +149,12 @@ public class ListViewFragment extends ListFragment {
                     null, null, null, null, null, null, null,
                     null, null, null, null, null, null,
                     null, null, null, null, null);
-            auth.setName(user.get(0).first_name + " " + user.get(0).last_name);
+                auth = new AuthorContainer(user.get(0).first_name, user.get(0).last_name, (int)user.get(0).uid, user.get(0).photo_medium_rec.toString());
+/*            auth.setName(user.get(0).first_name + " " + user.get(0).last_name);
             auth.setId((int)user.get(0).uid);
-            auth.setPicture(user.get(0).photo_medium_rec.toString());
+            auth.setPicture(user.get(0).photo_medium_rec.toString());*/
         }
 
-        // = new Author(user.get(0).last_name, user.get(0).first_name, Integer.getInteger(autId), user.get(0).photo_medium_rec.toString());
-/*        name = user.get(0).first_name + " " + user.get(0).last_name;
-        picUrl = user.get(0).photo_medium_rec.toString();*/
-        try {
-            sleep(170);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         return auth;
     }
 
