@@ -15,6 +15,12 @@ public class WallContainer implements Serializable {
     private ArrayList<CommentContainer> comments;
     private int commentsSize;
 
+    public WallContainer(String _message, String _date, long _commentsCount){
+        setMessage(_message);
+        setDate(_date);
+        setCommentsCount(_commentsCount);
+    }
+
     public WallContainer(String _message, String _author, String _date, long _id, long _commentsCount){
         setMessage(_message);
         setAuthor(_author);

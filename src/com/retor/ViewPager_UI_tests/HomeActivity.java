@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 
-public class HomeActivity extends FragmentActivity {
+public class HomeActivity extends FragmentActivity implements ListViewFragment.ListFragmentItemClickListener {
     /**
      * Called when the activity is first created.
      */
@@ -78,9 +78,33 @@ public class HomeActivity extends FragmentActivity {
 
     private void showAuthDialog() {
         FragmentManager fm = getSupportFragmentManager();
-        AuthDialog authDialog = new AuthDialog(this, getSupportFragmentManager());
+        AuthDialog authDialog = new AuthDialog(this, fm);
         authDialog.show(fm, "authorization");
     }
+
+    /**
+     * This method will be invoked when an item in the ListFragment is clicked
+     *
+     * @param position
+     */
+    @Override
+    public void onListFragmentItemClick(int position) {
+        FragmentManager fm = getSupportFragmentManager();
+        android.support.v4.app.FragmentTransaction ft = fm.beginTransaction();
+        InfoFragment inf = new InfoFragment(position);
+        ft.attach(inf).commit();
+        showAuthDialog();
+        /** Creating an intent object to start the CountryDetailsActivity */
+       // Intent intent = new Intent("com.retor.ViewPager_UI_tests");
+
+        /** Setting data ( the clicked item's position ) to this intent */
+        //intent.putExtra("position", position);
+
+        /** Starting the activity by passing the implicit intent */
+        //startActivity(intent);
+        //Toast.makeText(this," " + position, Toast.LENGTH_SHORT);
+    }
+
     private class BackThread extends AsyncTask<ArrayList<WallContainer>, Void, ArrayList<WallContainer>> {
 
         @Override
@@ -100,13 +124,13 @@ public class HomeActivity extends FragmentActivity {
                     long id;
                     long commentsCount;
                     for (int i=0; i<wallMessagesVK.size(); i++){
-                        authorInf(wallMessagesVK.get(i).from_id);//new Author();
+                        //authorInf(wallMessagesVK.get(i).from_id);//new Author();
                         message = wallMessagesVK.get(i).text.toString();
-                        author = auth.getName();
+                        //author = auth.getName();
                         date = dataConvert(wallMessagesVK.get(i).date);
-                        id = auth.getId();
+                        //id = auth.getId();
                         commentsCount = wallMessagesVK.get(i).comment_count;
-                        WallContainer wm = new WallContainer(message,author,date,id,commentsCount);
+                        WallContainer wm = new WallContainer(message,date,commentsCount);
                         wall.add(i, wm);
                     }
                 }

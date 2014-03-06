@@ -12,12 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6be0da7-8e48-43ff-a422-3ec60e7bf55b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialog.java" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthorContainer.java" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthorContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/InfoFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/infofragment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestListAdapter.java" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment.xml" afterPath="$PROJECT_DIR$/res/layout/fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/WallContainer.java" afterPath="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/WallContainer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -90,43 +90,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HomeActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="38" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1139">
-              <folding>
-                <element signature="e#1646#1689#0" expanded="false" />
-                <element signature="method#onSaveInstanceState#0;class#HomeActivity#0" expanded="false" />
-                <element signature="method#showAuthDialog#0;class#HomeActivity#0" expanded="false" />
-                <element signature="class#BackThread#0;class#HomeActivity#0" expanded="false" />
-                <element signature="method#doInBackground#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-                <element signature="method#onProgressUpdate#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-                <element signature="method#onPostExecute#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-                <element signature="e#4683#4844#0" expanded="true" />
-                <element signature="e#4829#4830#0" expanded="true" />
-                <element signature="method#authorInf#0;class#HomeActivity#0" expanded="false" />
-                <element signature="method#dataConvert#0;class#HomeActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestListAdapter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestListAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="0" selection-start="2424" selection-end="2465" vertical-scroll-proportion="0.67663044" vertical-offset="788" max-vertical-offset="1462">
+            <state line="77" column="0" selection-start="2611" selection-end="2611" vertical-scroll-proportion="0.18685122" vertical-offset="895" max-vertical-offset="3145">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListViewFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
+      <file leaf-file-name="AuthDialog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="408">
+            <state line="80" column="23" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1496">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthDialogListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialogListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="10" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfoFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/InfoFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="infofragment.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/infofragment.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listfragment.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,23 +187,27 @@
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/MyPageAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/PageAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialogListener.java" />
         <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/Account.java" />
         <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialog.java" />
-        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/WallContainer.java" />
         <option value="$PROJECT_DIR$/res/layout/fragment.xml" />
         <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthorContainer.java" />
-        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/WallContainer.java" />
+        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/onListItemClick.java" />
         <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestListAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/infofragment.xml" />
+        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/InfoFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialogListener.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -267,6 +301,10 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -299,8 +337,32 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewPager UI tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewPager_UI_tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ViewPager UI tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidVkSdk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,8 +387,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="333" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5556" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="MyAvd0" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
@@ -342,6 +404,13 @@
       <recent name="C:\Users\retor\Documents\GitHub\ViewPager_UI_tests\res\drawable" />
       <recent name="C:\Users\Антон\IdeaProjects\ViewPager_UI_tests" />
       <recent name="C:\Users\retor\Documents\GitHub\ViewPager_UI_tests\libs" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.retor.ViewPager_UI_tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Антон\IdeaProjects\ViewPager_UI_tests\res\values" />
+      <recent name="C:\Users\Антон\IdeaProjects\ViewPager_UI_tests\res\layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.ViewPager UI tests">
@@ -623,6 +692,7 @@
       <workItem from="1393913495918" duration="14162000" />
       <workItem from="1393998287083" duration="3206000" />
       <workItem from="1394036301708" duration="8023000" />
+      <workItem from="1394085757633" duration="6137000" />
     </task>
     <task id="LOCAL-00001" summary="test sync with IntelliJ IDEA 13">
       <created>1393602377880</created>
@@ -648,40 +718,40 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45529000" />
+    <option name="totallyTimeSpent" value="51666000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18530351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32782516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1858006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -699,6 +769,7 @@
     </option>
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="test sync with IntelliJ IDEA 13" />
@@ -750,46 +821,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/Cons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="35" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1581">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="38" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#1646#1689#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#showAuthDialog#0;class#HomeActivity#0" expanded="false" />
-            <element signature="class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onProgressUpdate#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="e#4683#4844#0" expanded="true" />
-            <element signature="e#4829#4830#0" expanded="true" />
-            <element signature="method#authorInf#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#dataConvert#0;class#HomeActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -806,8 +851,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="41" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1411">
           <folding>
-            <element signature="method#WallContainer#0;class#WallContainer#0" expanded="false" />
             <element signature="method#WallContainer#1;class#WallContainer#0" expanded="false" />
+            <element signature="method#WallContainer#2;class#WallContainer#0" expanded="false" />
             <element signature="method#setComments#0;class#WallContainer#0" expanded="false" />
           </folding>
         </state>
@@ -828,31 +873,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="400" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1445">
-          <folding>
-            <element signature="e#1646#1689#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#showAuthDialog#0;class#HomeActivity#0" expanded="false" />
-            <element signature="class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onProgressUpdate#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="e#4683#4844#0" expanded="true" />
-            <element signature="e#4829#4830#0" expanded="true" />
-            <element signature="method#authorInf#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#dataConvert#0;class#HomeActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -866,41 +899,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="44" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1445">
-          <folding>
-            <element signature="e#1646#1689#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#showAuthDialog#0;class#HomeActivity#0" expanded="false" />
-            <element signature="class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onProgressUpdate#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="e#4683#4844#0" expanded="true" />
-            <element signature="e#4829#4830#0" expanded="true" />
-            <element signature="method#authorInf#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#dataConvert#0;class#HomeActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,41 +935,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="44" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="59" selection-start="1297" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
-          <folding>
-            <element signature="e#1646#1689#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#showAuthDialog#0;class#HomeActivity#0" expanded="false" />
-            <element signature="class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onProgressUpdate#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="e#4683#4844#0" expanded="true" />
-            <element signature="e#4829#4830#0" expanded="true" />
-            <element signature="method#authorInf#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#dataConvert#0;class#HomeActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -960,23 +969,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="45" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
@@ -991,19 +1000,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="59" selection-start="1297" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
-          <folding>
-            <element signature="e#1646#1689#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#showAuthDialog#0;class#HomeActivity#0" expanded="false" />
-            <element signature="class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onProgressUpdate#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="e#4683#4844#0" expanded="true" />
-            <element signature="e#4829#4830#0" expanded="true" />
-            <element signature="method#authorInf#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#dataConvert#0;class#HomeActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,23 +1012,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="45" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
@@ -1046,19 +1043,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="59" selection-start="1297" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
-          <folding>
-            <element signature="e#1646#1689#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#showAuthDialog#0;class#HomeActivity#0" expanded="false" />
-            <element signature="class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onProgressUpdate#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="e#4683#4844#0" expanded="true" />
-            <element signature="e#4829#4830#0" expanded="true" />
-            <element signature="method#authorInf#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#dataConvert#0;class#HomeActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,23 +1055,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="45" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
@@ -1101,40 +1086,28 @@
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="1" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="952">
-          <folding>
-            <element signature="e#1646#1689#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#showAuthDialog#0;class#HomeActivity#0" expanded="false" />
-            <element signature="class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onProgressUpdate#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="e#4683#4844#0" expanded="true" />
-            <element signature="e#4829#4830#0" expanded="true" />
-            <element signature="method#authorInf#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#dataConvert#0;class#HomeActivity#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="45" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
@@ -1162,29 +1135,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialogListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="116" selection-end="116" vertical-scroll-proportion="0.14705883" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="577" selection-end="577" vertical-scroll-proportion="0.49186257" vertical-offset="0" max-vertical-offset="553">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="23" selection-start="2280" selection-end="2280" vertical-scroll-proportion="2.3529413" vertical-offset="0" max-vertical-offset="1734">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state line="16" column="44" selection-start="577" selection-end="577" vertical-scroll-proportion="0.49186257" vertical-offset="0" max-vertical-offset="553">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,23 +1150,6 @@
         <state line="12" column="13" selection-start="294" selection-end="294" vertical-scroll-proportion="0.20588236" vertical-offset="0" max-vertical-offset="884">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea13/system/compile-server/viewpager ui tests_deb21524/targets/java-production/ViewPager_UI_tests/android/generated_sources/aapt/com/perm/kate/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="40" selection-start="5902" selection-end="5902" vertical-scroll-proportion="0.33233532" vertical-offset="1708" max-vertical-offset="5882">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/Cons.java">
@@ -1229,58 +1169,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/WallContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="318" selection-end="318" vertical-scroll-proportion="0.43098593" vertical-offset="51" max-vertical-offset="680">
-          <folding>
-            <element signature="method#WallContainer#0;class#WallContainer#0" expanded="false" />
-            <element signature="method#WallContainer#1;class#WallContainer#0" expanded="false" />
-            <element signature="method#setComments#0;class#WallContainer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/fragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="50" selection-start="506" selection-end="506" vertical-scroll-proportion="0.6" vertical-offset="23" max-vertical-offset="1649">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/WallContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="38" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1139">
+        <state line="18" column="29" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <folding>
-            <element signature="e#1646#1689#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#showAuthDialog#0;class#HomeActivity#0" expanded="false" />
-            <element signature="class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#doInBackground#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onProgressUpdate#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#onPostExecute#0;class#BackThread#0;class#HomeActivity#0" expanded="false" />
-            <element signature="e#4683#4844#0" expanded="true" />
-            <element signature="e#4829#4830#0" expanded="true" />
-            <element signature="method#authorInf#0;class#HomeActivity#0" expanded="false" />
-            <element signature="method#dataConvert#0;class#HomeActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="408">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#WallContainer#1;class#WallContainer#0" expanded="false" />
+            <element signature="method#WallContainer#2;class#WallContainer#0" expanded="false" />
+            <element signature="method#setComments#0;class#WallContainer#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/TestListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2424" selection-end="2465" vertical-scroll-proportion="0.67663044" vertical-offset="788" max-vertical-offset="1462">
+        <state line="53" column="0" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.65916955" vertical-offset="401" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/ListViewFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.9117647" vertical-offset="34" max-vertical-offset="816">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listfragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="23" selection-start="2281" selection-end="2281" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/AuthDialogListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/InfoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="612">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/infofragment.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/retor/ViewPager_UI_tests/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="0" selection-start="2611" selection-end="2611" vertical-scroll-proportion="0.18685122" vertical-offset="895" max-vertical-offset="3145">
           <folding />
         </state>
       </provider>
